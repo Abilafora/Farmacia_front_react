@@ -51,7 +51,7 @@ function FormCategoria() {
                 alert('A categoria  foi atualizado com sucesso!')
             } catch (error: any) {
                 if (error.toString().includes('403')) {
-                    console.error('Acesso não autorizado.');
+                    console.error('Id não econtrado.');
                 } else {
                     alert('Erro ao atualizar a categoria.')
                 }
@@ -89,6 +89,18 @@ function FormCategoria() {
                         name='descricao'
                         className="border-2 border-slate-700 rounded p-2"
                         value={categoria.descricao}
+                        onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
+                    />
+                </div>
+
+                <div className="flex flex-col gap-2">
+                    <label htmlFor="descricao">Nome da Categoria</label>
+                    <input
+                        type="text"
+                        placeholder="Descreva aqui sua categoria"
+                        name='nome'
+                        className="border-2 border-slate-700 rounded p-2"
+                        value={categoria.nome}
                         onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
                     />
                 </div>

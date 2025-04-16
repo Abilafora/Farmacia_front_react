@@ -5,7 +5,9 @@ import Home from './pages/home/Home'
 import './App.css'
 import ListarCategorias from './components/categoria/listarcategorias/ListarCategorias'
 import FormCategoria from './components/categoria/formcategoria/FormCategoria'
-import DeletarCategoria from './components/categoria/deletartema/DeletarTema'
+import DeletarCategoria from './components/categoria/deletarcategoria/DeletarCategoria'
+
+
 
 
 

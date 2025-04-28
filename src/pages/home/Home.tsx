@@ -4,8 +4,8 @@ function Home() {
             <div className="bg-indigo-900 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
                     <div className="flex flex-col gap-4 items-center justify-center py-4">
-                        <h2 className='text-5xl font-bold'>
-                        Seja Bem Vinde à Famarcia da Abi!
+                        <h2 className='text-4xl font-bold'>
+                        Seja Bem Vinde à Famárcia da Abi!
                         </h2>
                     
                         <p>Vamos procurar pelo que precisa ! </p>

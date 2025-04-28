@@ -17,7 +17,7 @@ function FormCategoria() {
 
     async function buscarPorId(id: string) {
         try {
-            await buscar(`/categorias/${id}`, setCategoria, )
+            await buscar(`/editarcategoria/:id/categorias/${id}`, setCategoria, )
         } catch (error: any) {
             if (error.toString().includes('403')) {
                 console.error('Erro 403: acesso não autorizado.');

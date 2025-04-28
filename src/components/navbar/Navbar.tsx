@@ -7,7 +7,7 @@ function Navbar() {
             bg-indigo-900 text-white'>
             
                 <div className="container flex justify-between text-lg">
-                <Link to='/home' className="text-2xl font-bold">Blog Pessoal</Link>
+                <Link to='/home' className="text-2xl font-bold">Farmácia da Abi</Link>
 
                     <div className='flex gap-4'>
                     <Link to='/produto' className='hover:underline'>Produtos</Link>
